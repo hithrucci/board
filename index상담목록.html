@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>상담신청</h2>
+      <form id="requestForm">
+        <div>
+          <label for="name">이름</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="mesaage">상담내용</label>
+          <textarea id="message" type="text"></textarea>
+          <button id="submitBtn" type="submit">제출하기</button>
+          <div id="feedback" class="msg">메세지</div>
+        </div>
+      </form>
+      <h2>상담목록</h2>
+      <ul id="list"></ul>
+      <script src="board2.js" type="module"></script>
+    </div>
+  </body>
+</html>
