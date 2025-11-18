@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="reviewstyle.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <h2>은화수식당</h2>
+      <p>음식은 어떠셨나요?</p>
+      <ul class="star">
+        <li><i class="fa-regular fa-star"></i></li>
+        <li><i class="fa-regular fa-star"></i></li>
+        <li><i class="fa-regular fa-star"></i></li>
+        <li><i class="fa-regular fa-star"></i></li>
+        <li><i class="fa-regular fa-star"></i></li>
+      </ul>
+      <h4>자세한 음식 리뷰를 작성해 주세요</h4>
+      <form id="requestForm">
+        <textarea
+          placeholder="자세히 써 주시면 더 유용한 리뷰가 돼요"
+        ></textarea>
+        <button id="submitBtn" type="submit">등록하기</button>
+      </form>
+      <ul id="list"></ul>
+    </div>
+    <script src="review.js" type="module"></script>
+  </body>
+</html>
